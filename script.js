@@ -24,16 +24,3 @@ async function typerAnimation(text) {
 }
 
 typerAnimation(tags[tagIdx % tags.length]);
-
-// Theme Change 
-themeChanger.addEventListener("click", () => {
-    if (themeChanger.getAttribute("data-theme") == "dark") {
-        themeChanger.setAttribute("data-theme", "light");
-        document.body.setAttribute("data-theme", "light");
-        document.getElementById("currentTheme").setAttribute("href", "themes/light.css");
-    } else {
-        themeChanger.setAttribute("data-theme", "dark");
-        document.body.setAttribute("data-theme", "dark");
-        document.getElementById("currentTheme").setAttribute("href", "themes/dark.css");
-    }
-});
