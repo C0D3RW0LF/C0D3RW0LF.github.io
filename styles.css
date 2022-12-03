@@ -15,19 +15,12 @@ body {
 }
 body[data-theme="light"] {
     color: var(--primary);
-    background: url("img/light_bg.svg");
+    background: url("sans_titre.png");
     background-color: var(--secondary);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-body[data-theme="dark"] {
-    color: var(--primary);
-    background: url("img/dark_bg.svg");
-    background-color: var(--secondary);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 ::-moz-selection {
     /* Code for Firefox */
@@ -53,11 +46,6 @@ body[data-theme="dark"] {
     align-items: center;
     border-radius: 50%;
     font-size: 1.8rem;
-}
-
-#theme-changer[data-theme="dark"] .fa-moon,
-#theme-changer[data-theme="light"] .fa-sun {
-    display: none;
 }
 
 .container {
