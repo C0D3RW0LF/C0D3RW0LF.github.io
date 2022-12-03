@@ -13,7 +13,7 @@ body {
     height: 100%;
     font-size: 10px;
 }
-body[data-theme="light"] {
+body[data-theme="dark"] {
     color: var(--primary);
     background: url("wallpaper.png");
     background-color: var(--secondary);
