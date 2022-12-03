@@ -15,7 +15,7 @@ body {
 }
 body[data-theme="light"] {
     color: var(--primary);
-    background: url("Sans titre.png");
+    background: url("wallpaper.png");
     background-color: var(--secondary);
     background-repeat: no-repeat;
     background-size: cover;
