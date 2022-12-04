@@ -15,7 +15,7 @@ body {
 }
 body[data-theme="dark"] {
     color: var(--primary);
-    background: url("wallpaper.png");
+    background: url("website bg.png");
     background-color: var(--secondary);
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,14 +53,14 @@ body[data-theme="dark"] {
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     padding: 2rem;
 }
 
 .profile {
     /* margin-top: 7rem; */
-    text-align: center;
+    text-align: left;
     margin-bottom: 2.5rem;
     font-size: 3rem;
 }
@@ -108,7 +108,7 @@ body[data-theme="dark"] {
 
 .about {
     font-size: 2rem;
-    text-align: center;
+    text-align: left;
     max-width: 50rem;
     margin-bottom: 2rem;
     color: var(--tretary);
@@ -124,7 +124,7 @@ body[data-theme="dark"] {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: right;
 }
 
 .social-link {
