@@ -14,7 +14,7 @@ body {
     font-size: 10px;
 }
 body[data-theme="dark"] {
-    color: "white";
+    color: white;
     background: url("website bg.png");
     background-color: var(--secondary);
     background-repeat: no-repeat;
@@ -24,12 +24,12 @@ body[data-theme="dark"] {
 
 ::-moz-selection {
     /* Code for Firefox */
-    color: var(--secondary);
+    color: white;
     background: var(--primary);
 }
 
 ::selection {
-    color: var(--secondary);
+    color: white;
     background: var(--primary);
 }
 
@@ -40,7 +40,7 @@ body[data-theme="dark"] {
     width: 3.5rem;
     height: 3.5rem;
     background-color: var(--primary);
-    color: "white";
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
