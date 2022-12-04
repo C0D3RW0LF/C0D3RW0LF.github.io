@@ -53,14 +53,14 @@ body[data-theme="dark"] {
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: right;
     justify-content: center;
     padding: 2rem;
 }
 
 .profile {
     /* margin-top: 7rem; */
-    text-align: left;
+    text-align: right;
     margin-bottom: 2.5rem;
     font-size: 3rem;
 }
@@ -84,15 +84,15 @@ body[data-theme="dark"] {
 
 @keyframes blinker {
     0% {
-        background-color: var(--secondary);
+        background-color: black;
     }
 
     50% {
-        background-color: var(--secondary);
+        background-color: black;
     }
 
     51% {
-        background-color: var(--primary);
+        background-color: white;
     }
 }
 
