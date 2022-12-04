@@ -108,7 +108,7 @@ body[data-theme="dark"] {
 
 .about {
     font-size: 2rem;
-    text-align: left;
+    text-align: right;
     max-width: 50rem;
     margin-bottom: 2rem;
     color: var(--tretary);
